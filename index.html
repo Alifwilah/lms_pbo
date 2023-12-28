@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Angkasa</title>
+    <link rel="icon" href="./img/logo_one.png">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <main>
+      <header id="header">
+        <div class="overlay overlay-lg">
+        </div>
+
+        <nav>
+          <div class="container">
+            <div class="logo">
+              <p>Angkasa</p>
+            </div>
+
+            <div class="links">
+              <ul>
+                <li>
+                  <a href="#header">Home</a>
+                </li>
+                <li>
+                  <a href="#services">Akademik</a>
+                </li>
+                <li>
+                  <a href="#project">News</a>
+                </li>
+                <li>
+                  <a href="#about">Tentang</a>
+                </li>
+                <li>
+                  <a href="#contact">Semester Antara</a>
+                </li>
+                <li>
+                  <a href="./css-logins-master/login.php" class="active">Login/Register</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="hamburger-menu">
+              <div class="bar"></div>
+            </div>
+          </div>
+        </nav>
+
+        <div class="header-content">
+          <div class="container grid-2">
+            <div class="column-1">
+              <h1 class="header-title">Learning Management System</h1>
+              <p class="text">
+                "Kembangkan Pengetahuan Anda, 
+                Eksplorasi Kemungkinan Baru: Temukan Ilmu di Setiap Langkah dengan Kami!"
+              </p>
+              <a href="#services" class="btn">Login/Register</a>
+            </div>
+
+            <div class="column-2 image">
+              <!-- <img
+                src="./img/shapes/points2.png"
+                class="points points2"
+                alt=""
+              /> -->
+              <img src="./img/logo_one.png" class="img-element z-index" alt="" />
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <section class="services section" id="services">
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title" data-title="Welcome">Akademik</h3>
+            <p class="text">
+              Selamat Datang di Learning Management System
+            </p>
+          </div>
+
+          <div class="cards">
+            <div class="card-wrap">
+              <!-- <img
+                src="./img/shapes/points3.png"
+                class="points points1 points-sq"
+                alt=""
+              /> -->
+              <div class="card" data-card="Ilkom">
+                <div class="card-content z-index">
+                  <img src="./img/settings.png" class="icon" alt="" />
+                  <h3 class="title-sm">Ilmu Komputer</h3>
+                  <p class="text">
+                    Ilmu komputer merupakan bidang yang mempelajari tentang pengembangan, 
+                    analisis, dan penerapan teknologi terkait dengan komputasi dan sistem informasi.
+                  </p>
+                  <a href="#" class="btn small">Read more</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-wrap">
+              <div class="card" data-card="Kimia">
+                <div class="card-content z-index">
+                  <img src="./img/enzyme.png" class="icon" alt="" />
+                  <h3 class="title-sm">Kimia</h3>
+                  <p class="text">
+                    Prodi kimia memberikan pemahaman mendalam tentang prinsip-prinsip 
+                    kimia dan keterampilan dalam analisis serta sintesis zat kimia di sekitar kita.
+                  </p>
+                  <a href="#" class="btn small">Read more</a>
+                </div>
+              </div>
+            </div>
+            <div class="card-wrap">
+              <!-- <img
+                src="./img/shapes/points3.png"
+                class="points points2 points-sq"
+                alt=""
+              /> -->
+              <div class="card" data-card="Fisika">
+                <div class="card-content z-index">
+                  <img src="./img/flask.png" class="icon" alt="" />
+                  <h3 class="title-sm">Fisika</h3>
+                  <p class="text">
+                    Prodi fisika mempelajari dasar-dasar alam semesta 
+                    dan fenomena alam dengan keterampilan analitis yang luas.
+                  </p>
+                  <a href="#" class="btn small">Read more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="project section" id="project">
+        <div class="background-bg">
+          <div class="overlay overlay-sm">
+            <!-- <img
+              src="./img/shapes/half-circle.png"
+              class="shape half-circle1"
+              alt=""
+            />
+            <img
+              src="./img/shapes/half-circle.png"
+              class="shape half-circle2"
+              alt=""
+            />
+            <img src="./img/shapes/square.png" class="shape square" alt="" />
+            <img src="./img/shapes/wave.png" class="shape wave" alt="" />
+            <img src="./img/shapes/circle.png" class="shape circle" alt="" />
+            <img
+              src="./img/shapes/triangle.png"
+              class="shape triangle"
+              alt=""
+            />
+            <img src="./img/shapes/x.png" class="shape xshape" alt="" /> -->
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title" data-title="Berita">Terkini</h3>
+          </div>
+
+          <div class="section-body">
+            <div class="filter">
+              <button class="filter-btn active" data-filter="*">All</button>
+              <button class="filter-btn" data-filter=".kelulusan">Kelulusan</button>
+              <!-- <button class="filter-btn" data-filter=".cek">Check</button> -->
+              <button class="filter-btn" data-filter=".pindah">
+                Ruangan
+              </button>
+              <button class="filter-btn" data-filter=".pasang">
+                Fasilitas
+              </button>
+            </div>
+
+            <div class="grid">
+              
+              <div class="grid-item pindah">
+                <div class="gallery-image">
+                  <img src="./img/foto/1.jpeg" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>ruangan</h3>
+                      <h5>View Demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item pindah">
+                <div class="gallery-image">
+                  <img src="./img/foto/2.jpeg" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>ruangan</h3>
+                      <h5>View Demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="grid-item pasang">
+                <div class="gallery-image">
+                  <img src="./img/foto/3.jpeg" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>Fasilitas</h3>
+                      <h5>View Demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item kelulusan">
+                <div class="gallery-image">
+                  <img src="./img/foto/4.jpeg" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>kelulusan</h3>
+                      <h5>View Demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item kelulusan">
+                <div class="gallery-image">
+                  <img src="./img/foto/5.jpeg" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>kelulusan</h3>
+                      <h5>View Demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item kelulusan">
+                <div class="gallery-image">
+                  <img src="./img/foto/6.jpeg" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>kelulusan</h3>
+                      <h5>View Demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item kelulusan">
+                <div class="gallery-image">
+                  <img src="./img/foto/7.jpeg" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>kelulusan</h3>
+                      <h5>View Demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item kelulusan">
+                <div class="gallery-image">
+                  <img src="./img/foto/8.jpeg" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>kelulusan</h3>
+                      <h5>View Demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item kelulusan">
+                <div class="gallery-image">
+                  <img src="./img/foto/9.jpeg" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>kelulusan</h3>
+                      <h5>View Demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item kelulusan">
+                <div class="gallery-image">
+                  <img src="./img/foto/10.jpeg" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>kelulusan</h3>
+                      <h5>View Demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item kelulusan">
+                <div class="gallery-image">
+                  <img src="./img/foto/11.jpeg" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>kelulusan</h3>
+                      <h5>View Demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item kelulusan">
+                <div class="gallery-image">
+                  <img src="./img/foto/12.jpeg" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>kelulusan</h3>
+                      <h5>View Demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item pasang">
+                <div class="gallery-image">
+                  <img src="./img/foto/13.jpeg" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>fasilitas</h3>
+                      <h5>View Demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item pasang">
+                <div class="gallery-image">
+                  <img src="./img/foto/14.jpeg" alt="" />
+                  <div class="img-overlay">
+                    <div class="plus"></div>
+                    <div class="img-description">
+                      <h3>fasilitas</h3>
+                      <h5>View Demo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+
+            </div>
+            <div class="more-folio">
+              <a href="#" class="btn">More Folio</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about section" id="about">
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title" data-title="Who Are We">Tentang Akademik</h3>
+          </div>
+
+          <div class="section-body grid-2">
+            <div class="column-1">
+              <h3 class="title-sm">Tingkat Peminat</h3>
+              <p class="text">
+                Banyak dari Siswa Kami Memilih Prodi Ilmu Komputer
+                Disusul oleh Prodi Fisika dan yang Terakhir adalah Prodi Kimia
+              </p>
+              <div class="skills">
+                <div class="skill html">
+                  <h3 class="skill-title">Ilmu Komputer</h3>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-progress="90%"></div>
+                  </div>
+                </div>
+                <div class="skill css">
+                  <h3 class="skill-title">Kimia</h3>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-progress="70%"></div>
+                  </div>
+                </div>
+                <div class="skill js">
+                  <h3 class="skill-title">Fisika</h3>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-progress="80%"></div>
+                  </div>
+                </div>
+              </div>
+              <a href="#" class="btn">Read more</a>
+            </div>
+
+            <div class="column-2 image">
+              <!-- <img src="./img/shapes/points4.png" class="points" alt="" /> -->
+              <img src="./img/logo_one.png" class="z-index" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      
+
+      <section class="contact" id="contact">
+        <div class="container">
+          <div class="contact-box">
+            <div class="contact-info">
+              <h3 class="title">Get in touch</h3>
+              <p class="text">
+                Jika ada kendala dapat hubungi kami
+              </p>
+              <div class="information-wrap">
+                <div class="information">
+                  <div class="contact-icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                  </div>
+                  <p class="info-text">Pakuan University</p>
+                </div>
+
+                <div class="information">
+                  <div class="contact-icon">
+                    <i class="fas fa-paper-plane"></i>
+                  </div>
+                  <p class="info-text">angkasa@gmail.com</p>
+                </div>
+
+                <div class="information">
+                  <div class="contact-icon">
+                    <i class="fas fa-phone-alt"></i>
+                  </div>
+                  <p class="info-text">0812-3456-7890</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-form">
+              <h3 class="title">Contact us</h3>
+              <div class="row">
+                <input
+                  type="text"
+                  class="contact-input"
+                  placeholder="First Name"
+                />
+                <input
+                  type="text"
+                  class="contact-input"
+                  placeholder="Last Name"
+                />
+              </div>
+
+              <div class="row">
+                <input type="text" class="contact-input" placeholder="Phone" />
+                <input type="email" class="contact-input" placeholder="Email" />
+              </div>
+
+              <div class="row">
+                <textarea
+                  name="message"
+                  class="contact-input textarea"
+                  placeholder="Message"
+                ></textarea>
+              </div>
+              <a href="#" class="btn">Send</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="hireus" id="hireus">
+        <div class="container">
+          <h3 class="title">Learning Management System</h3>
+          <p class="text">
+            Dapatkan pengalaman belajar yang lebih menyenangkan dan terarah dengan 
+            LMS Semester Antara kami! Jangan ragu untuk menghubungi tim admin kami yang 
+            siap membantu setiap langkah Anda dalam mengeksplorasi platform pembelajaran 
+            kami yang inovatif dan mendukung. Segera hubungi kami untuk bantuan, saran, 
+            atau permintaan khusus Anda dalam menjalani perjalanan belajar yang produktif dan bermakna!
+          </p>
+          <a href="#" class="btn">Contact Us</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="grid-4">
+          <div class="grid-4-col footer-about">
+            <h3 class="title-sm">About</h3>
+            <p class="text"> 
+              Dari konten hingga dukungan teknis, layanan LMS kami mencakup semua yang 
+              Anda butuhkan untuk perjalanan belajar yang lancar.
+            </p>
+          </div>
+
+          <div class="grid-4-col footer-links">
+            <h3 class="title-sm">Links</h3>
+            <ul>
+              <li>
+                <a href="#services">Akademik</a>
+              </li>
+              <li>
+                <a href="#project">Berita</a>
+              </li>
+              <li>
+                <a href="#about">Tentang</a>
+              </li>
+              <li>
+                <a href="#testimonials">Semester Antara</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="grid-4-col footer-links">
+            <h3 class="title-sm">Akademik</h3>
+            <ul>
+              <li>
+                <a href="#">Ilmu Komputer</a>
+              </li>
+              <li>
+                <a href="#">Kimia</a>
+              </li>
+              <li>
+                <a href="#">Fisika</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="grid-4-col footer-newstletter">
+            <h3 class="title-sm">Subscribe</h3>
+            <p class="text">
+              Info lebih lengkap, silakan hubungi kami
+            </p>
+            <div class="footer-input-wrap">
+              <input type="email" class="footer-input" placeholder="Email" />
+              <a href="#" class="input-arrow">
+                <i class="fas fa-angle-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="bottom-footer">
+          <div class="copyright">
+            <p class="text">
+              Copyright&copy;2023 All rights reserved | Made by
+              <span>Angkasa</span>
+            </p>
+          </div>
+
+          <div class="followme-wrap">
+            <div class="followme">
+              <h3>Follow us</h3>
+              <span class="footer-line"></span>
+              <div class="social-media">
+                <a href="https://web.facebook.com/unpak/?_rdc=1&_rdr">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://twitter.com/Univ_Pakuan">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://www.instagram.com/official_unpak/">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/school/unpak/?originalSubdomain=id">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="back-btn-wrap">
+              <a href="#" class="back-btn">
+                <i class="fas fa-chevron-up"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./js/isotope.pkgd.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
